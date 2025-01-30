@@ -46,4 +46,4 @@ Fraud detection demands a system capable of adapting to evolving patterns and ed
 
 ---
 
-*"Card denied, sir. Would you like to try another one?"*
+*"Card denied. Would you like to try another one?"*
