@@ -15,7 +15,6 @@ services:
       - "8080:8080"
     depends_on:
       - mysql
-    command: /bin/bash -c "airflow db init && airflow webserver -p 8080 & airflow scheduler"
 
   mysql:
     image: mysql:5.7
