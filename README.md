@@ -47,14 +47,3 @@ Fraud detection demands a system capable of adapting to evolving patterns and ed
 ---
 
 Fraud detection, reimagined through evolution. 🚀
-
-
-
----
-
-
-Punishment for False Negatives:
-
-Penalty Term: Add a penalty in the fitness function when a model misclassifies a fraudulent transaction as non-fraudulent.
-Higher Risk Awareness: Models should be designed to be more cautious with predicting non-fraud. This could be incentivized by lowering the model's tolerance for false negatives, encouraging them to err on the side of caution.
-Cost-sensitive Learning: Assign higher misclassification costs for false negatives during the training process. Models are penalized more for missing fraud predictions than for misclassifying non-fraud cases as fraud.
