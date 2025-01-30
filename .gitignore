@@ -1,0 +1,62 @@
+# Data (temporary: local currently, remote in the future)
+data/
+
+# Airflow logs
+logs/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Docker
+*.env
+*.log
+
+# MySQL Data Files
+mysql_data/
+
+# Airflow specific
+airflow.db
+airflow_home/
+
+# Virtual environments
+venv/
+.env/
+
+# Miscellaneous
+*.db
+*.sqlite3
+*.tar.gz
+*.tgz
+*.zip
+*.tar
+*.bak
+*.swp
+
+# Test/coverage reports
+*.coverage
+*.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.tox/
+*.nox/
+*.coverage.*
+
+# Other
+*.log
+*.pid
