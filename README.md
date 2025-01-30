@@ -1,4 +1,4 @@
-# Ensemble Fraud Detection Using DEAP Evolutionary Learning
+# Anomaly Detection using Evolutionary Learning and Ensemble Scoring
 
 ## Objective
 This project tackles the challenge of fraud detection using the [IEEE-CIS Fraud Detection Dataset](https://www.kaggle.com/c/ieee-fraud-detection). By leveraging evolutionary algorithms through DEAP, we create and optimize a diverse population of classifiers to detect fraudulent transactions. The ultimate goal is to develop an ensemble scoring system that combines predictions from multiple classifiers, offering robust and adaptive fraud detection.
@@ -39,11 +39,11 @@ This project tackles the challenge of fraud detection using the [IEEE-CIS Fraud 
 ---
 
 ## Why This Approach?
-Fraud detection demands a system capable of adapting to evolving patterns and edge cases. By leveraging evolutionary optimization with DEAP, this project ensures:
+Fraud detection demands a system capable of adapting to evolving patterns and edge cases. By leveraging evolutionary optimization with DEAP, this project aims to ensure:
 - **Robustness**: Diverse classifiers mitigate the risk of overfitting to specific fraud patterns.
 - **Accuracy**: Optimized ensemble scoring improves fraud detection metrics like F1-score and AUC.
 - **Scalability**: The pipeline supports large datasets and adapts to changing fraud behavior.
 
 ---
 
-Fraud detection, reimagined through evolution. 🚀
+*"Card denied, sir. Would you like to try another one?"*
